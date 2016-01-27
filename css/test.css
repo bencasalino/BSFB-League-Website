@@ -1,7 +1,11 @@
-.tier-1 {
+.container-fluid {
   display: inline-block;
   justify-content: center;
-  align-items: center; }
+  align-items: center;
+  width: 100%; }
+
+.cell {
+  display: inline-block; }
 
 /* Extra small devices (phones, less than 768px) */
 /* No media query since this is the default in Bootstrap */

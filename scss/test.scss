@@ -1,4 +1,29 @@
 td, th {
 	color:grey;
-	font-size: 12px; 
+	font-size: 11px;
+}
+
+
+
+
+.inactive {
+	font-style: italic;
+	color:grey;
+}
+
+
+.active {
+	font-style: bold;
+	color:black;
+}
+
+
+
+.commish {
+	color:black;
+}
+
+
+.user {
+	color:grey;
 }

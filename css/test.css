@@ -1,5 +1,24 @@
-td, th {
+.sea1 {
+  color: red;
+  background-color: grey; }
+
+.full_seasons {
+  align-self: center; }
+
+.roman {
+  color: black;
+  font-size: 9px;
+  font-weight: bold; }
+
+.win_loss {
+  color: black;
+  font-size: 10px; }
+
+td {
   color: grey;
+  font-size: 11px; }
+
+th {
   font-size: 11px; }
 
 .inactive {

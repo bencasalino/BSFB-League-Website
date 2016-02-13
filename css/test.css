@@ -44,6 +44,46 @@ th {
 .forth_place {
   background-color: #E1E1E1; }
 
+.alltime_10k {
+  color: lightblue;
+  opacity: 90%; }
+
+.alltime_20k {
+  color: lightblue;
+  opacity: 20%; }
+
+.alltime_30k {
+  color: lightblue;
+  opacity: 30%; }
+
+.alltime_40k {
+  color: lightblue;
+  opacity: 40%; }
+
+.alltime_50k {
+  color: lightblue;
+  opacity: 50%; }
+
+.alltime_60k {
+  color: lightblue;
+  opacity: 60%; }
+
+.alltime_70k {
+  color: lightblue;
+  opacity: 70%; }
+
+.alltime_80k {
+  color: lightblue;
+  opacity: 80%; }
+
+.alltime_90k {
+  color: lightblue;
+  opacity: 90%; }
+
+.alltime_100k {
+  color: lightblue;
+  opacity: 100%; }
+
 .first_box {
   width: 20px;
   height: 20px;

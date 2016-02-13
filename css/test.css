@@ -11,7 +11,7 @@
   font-size: 10px; }
 
 td {
-  color: grey;
+  color: black;
   font-size: 11px; }
 
 th {
@@ -39,7 +39,7 @@ th {
   background-color: silver; }
 
 .third_place {
-  background-color: #C49060; }
+  background-color: #DEA36C; }
 
 .forth_place {
   background-color: #E1E1E1; }

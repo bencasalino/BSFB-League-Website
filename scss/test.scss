@@ -58,10 +58,20 @@ th {
 }
 
 //add star glyphicon to titles column
-.first_place {}
-.second_place{}
-.third_place{}
-.4th_place{}
+.first_place {
+	background-color: gold;
+	font-weight: bold;
+}
+.second_place{
+	background-color: silver;
+}
+.third_place{
+	background-color: #C49060;
+
+}
+.forth_place{
+	background-color: #E1E1E1;
+}
 
 .last_place{}
 .roy{}

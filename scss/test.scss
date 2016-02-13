@@ -56,6 +56,9 @@ th {
 .user {
 	color:grey;
 }
+// make the active/inactive a user glyphicon in its OWN column before owner name so it can be sortable (basically a this season only button)
+
+
 
 //add star glyphicon to titles column
 .first_place {
@@ -76,3 +79,13 @@ th {
 .last_place{}
 .roy{}
 // or somekind of glyphicon might be a better solution for this one
+
+
+
+
+
+.first_box {
+	width:20px;
+	height: 20px;
+	background-color: red;
+}

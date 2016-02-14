@@ -36,6 +36,7 @@
             <table id="myTable" class="tablesorter table table-striped table-condensed" align="center">
                 <thead>
                     <tr>
+                        <th> </th> <!-- acive or inactive -->
                         <th> </th> <!--owner -->
                         <th> </th> <!--team name  -->
                         <th> Year </th> <!-- joined -->
@@ -59,8 +60,9 @@
                         <th class="roman"> VIII </th>
                         <th class="roman"> 2016' </th>
                         <th class="roman"> IX </th>
-                        <th> </th> <!-- -->
-                        <th> </th> <!-- -->
+                        <th> </th> <!-- wins  -->
+                        <th> </th> <!--  losses -->
+                        <th> </th> <!-- win % -->
                         <th> Total </th>
                         <th> </th> <!-- -->
                         <th> </th> <!-- -->
@@ -94,6 +96,7 @@
                         <th class="win_loss">L )</th>
                         <th> W's </th>
                         <th> L's </th>
+                        <th> Win % </th>
                         <th> FPts </th>
                         <th> Playoffs </th>
                         <th> Finals </th>
@@ -131,6 +134,7 @@
                         <td class="season_9"> - </td>
                         <td class="win_total"> 83 </td>
                         <td class="loss_total"> 39 </td>
+                        <td class="percentage_won">    % </td>
                         <td class="all_time_pts"> 100k</td>
                         <td class="playoffs"> 7 </td>
                         <td class="finals"> 4 </td>
@@ -163,6 +167,7 @@
                         <td class="season_9" align="center"> - </td>
                         <td class="win_total"> 67 </td>
                         <td class="loss_total"> 39 </td>
+                                <td class="percentage_won">    % </td>
                         <td class="all_time_pts">0 </td>
                         <td class="playoffs"> 6 </td>
                         <td class="finals"> 2 </td>
@@ -195,6 +200,7 @@
                         <td class="season_9" align="center"> - </td>
                         <td class="win_total"> 84 </td>
                         <td class="loss_total"> 38 </td>
+                                <td class="percentage_won">    % </td>
                         <td class="all_time_pts">0 </td>
                         <td class="playoffs"> 7</td>
                         <td class="finals"> 4 </td>
@@ -227,6 +233,7 @@
                         <td class="season_9" align="center"> - </td>
                         <td class="win_total"> 54 </td>
                         <td class="loss_total"> 21</td>
+                                <td class="percentage_won">    % </td>
                         <td class="all_time_pts">0 </td>
                         <td class="playoffs"> 0</td>
                         <td class="finals"> 0 </td>
@@ -259,6 +266,7 @@
                         <td class="season_9" align="center"> - </td>
                         <td class="win_total"> 20 </td>
                         <td class="loss_total"> 14 </td>
+                                <td class="percentage_won">    % </td>
                         <td class="all_time_pts">0 </td>
                         <td class="playoffs"> 1</td>
                         <td class="finals"> 0 </td>
@@ -286,11 +294,12 @@
                         <td class="season_7" align="center"> - </td>
                         <td class="season_7" align="center"> - </td>
                         <td class="season_8" align="center"> - </td>
-                        <td class="season_8" align="center">  </td>
+                        <td class="season_8" align="center"> - </td>
                         <td class="season_9" align="center"> - </td>
                         <td class="season_9" align="center"> - </td>
                         <td class="win_total"> 24 </td>
                         <td class="loss_total"> 24 </td>
+                                <td class="percentage_won">    % </td>
                         <td class="all_time_pts"> 0 </td>
                         <td class="playoffs"> 2 </td>
                         <td class="finals"> 0 </td>
@@ -323,6 +332,7 @@
                         <td class="season_9" align="center"> - </td>
                         <td class="win_total"> 17</td>
                         <td class="loss_total"> 29</td>
+                                <td class="percentage_won">    % </td>
                         <td class="all_time_pts"> 0</td>
                         <td class="playoffs"> 0</td>
                         <td class="finals"> 0 </td>
@@ -355,6 +365,7 @@
                         <td class="season_9" align="center"> - </td>
                         <td class="win_total"> 20 </td>
                         <td class="loss_total"> 12 </td>
+                                <td class="percentage_won">    % </td>
                         <td class="all_time_pts"> 0</td>
                         <td class="playoffs"> 1</td>
                         <td class="finals"> 0 </td>
@@ -387,6 +398,7 @@
                         <td class="season_9" align="center"> - </td>
                         <td class="win_total"> 19</td>
                         <td class="loss_total"> 15</td>
+                                <td class="percentage_won">    % </td>
                         <td class="all_time_pts">0 </td>
                         <td class="playoffs"> 2</td>
                         <td class="finals"> 0 </td>
@@ -419,6 +431,7 @@
                         <td class="season_9" align="center"> - </td>
                         <td class="win_total"> 19</td>
                         <td class="loss_total">15 </td>
+                                <td class="percentage_won">    % </td>
                         <td class="all_time_pts">0 </td>
                         <td class="playoffs"> 2</td>
                         <td class="finals"> 0 </td>
@@ -444,13 +457,14 @@
                         <td class="season_6" align="center"> - </td>
                         <td class="season_6" align="center">-  </td>
                         <td class="season_7" align="center"> - </td>
-                        <td class="season_7" align="center">  </td>
+                        <td class="season_7" align="center">  - </td>
                         <td class="season_8" align="center"> - </td>
                         <td class="season_8" align="center"> -  </td>
                         <td class="season_9" align="center"> - </td>
                         <td class="season_9" align="center"> - </td>
                         <td class="win_total"> 10</td>
                         <td class="loss_total">8 </td>
+                                <td class="percentage_won">    % </td>
                         <td class="all_time_pts">0 </td>
                         <td class="playoffs"> 1</td>
                         <td class="finals"> 0 </td>
@@ -483,6 +497,7 @@
                         <td class="season_9" align="center"> - </td>
                         <td class="win_total"> 25 </td>
                         <td class="loss_total"> 50 </td>
+                                <td class="percentage_won">    % </td>
                         <td class="all_time_pts"> 0 </td>
                         <td class="playoffs">0  </td>
                         <td class="finals"> 0 </td>
@@ -515,6 +530,7 @@
                         <td class="season_9" align="center"> - </td>
                         <td class="win_total">15 </td>
                         <td class="loss_total">  30</td>
+                                <td class="percentage_won">    % </td>
                         <td class="all_time_pts">0 </td>
                         <td class="playoffs">1 </td>
                         <td class="finals"> 0</td>
@@ -547,6 +563,7 @@
                         <td class="season_9" align="center"> - </td>
                         <td class="win_total"> 30</td>
                         <td class="loss_total"> 43</td>
+                                <td class="percentage_won">    % </td>
                         <td class="all_time_pts">0 </td>
                         <td class="playoffs"> 1</td>
                         <td class="finals">0 </td>
@@ -579,6 +596,7 @@
                         <td class="season_9" align="center"> - </td>
                         <td class="win_total"> 8 </td>
                         <td class="loss_total"> 4 </td>
+                                <td class="percentage_won">    % </td>
                         <td class="all_time_pts"> 0 </td>
                         <td class="playoffs"> 1 </td>
                         <td class="finals"> 0 </td>
@@ -611,6 +629,7 @@
                         <td class="season_9" align="center"> - </td>
                         <td class="win_total"> 12</td>
                         <td class="loss_total"> 2 </td>
+                                <td class="percentage_won">    % </td>
                         <td class="all_time_pts"> 0</td>
                         <td class="playoffs"> 1 </td>
                         <td class="finals"> 1</td>
@@ -643,6 +662,7 @@
                         <td class="season_9" align="center"> - </td>
                         <td class="win_total"> 16</td>
                         <td class="loss_total"> 10</td>
+                                <td class="percentage_won">    % </td>
                         <td class="all_time_pts">0 </td>
                         <td class="playoffs"> 0</td>
                         <td class="finals"> 0</td>
@@ -675,6 +695,7 @@
                         <td class="season_9" align="center"> - </td>
                         <td class="win_total"> 12 </td>
                         <td class="loss_total"> 12 </td>
+                                <td class="percentage_won">    % </td>
                         <td class="all_time_pts">0 </td>
                         <td class="playoffs">1 </td>
                         <td class="finals"> 0 </td>
@@ -707,6 +728,7 @@
                         <td class="season_9" align="center"> - </td>
                         <td class="win_total"> 12 </td>
                         <td class="loss_total"> 31</td>
+                                <td class="percentage_won">    % </td>
                         <td class="all_time_pts"> 0</td>
                         <td class="playoffs"> 1</td>
                         <td class="finals"> 0</td>
@@ -739,6 +761,7 @@
                         <td class="season_9" align="center"> - </td>
                         <td class="win_total">1 </td>
                         <td class="loss_total">11 </td>
+                                <td class="percentage_won">    % </td>
                         <td class="all_time_pts">0 </td>
                         <td class="playoffs"> 0</td>
                         <td class="finals"> 0</td>
@@ -771,6 +794,7 @@
                         <td class="season_9" align="center"> - </td>
                         <td class="win_total"> 9</td>
                         <td class="loss_total"> 7</td>
+                                <td class="percentage_won">    % </td>
                         <td class="all_time_pts"> 0 </td>
                         <td class="playoffs"> 1</td>
                         <td class="finals"> 1</td>
@@ -803,6 +827,7 @@
                         <td class="season_9" align="center"> - </td>
                         <td class="win_total"> 11 </td>
                         <td class="loss_total">  5 </td>
+                                <td class="percentage_won">    % </td>
                         <td class="all_time_pts"> 0 </td>
                         <td class="playoffs">1 </td>
                         <td class="finals"> 0</td>
@@ -835,6 +860,7 @@
                         <td class="season_9" align="center"> - </td>
                         <td class="win_total"> 7 </td>
                         <td class="loss_total"> 9 </td>
+                                <td class="percentage_won">    % </td>
                         <td class="all_time_pts"> 0 </td>
                         <td class="playoffs">0 </td>
                         <td class="finals"> 0 </td>
@@ -867,6 +893,7 @@
                         <td class="season_9" align="center"> - </td>
                         <td class="win_total"> 35 </td>
                         <td class="loss_total"> 13 </td>
+                                <td class="percentage_won">    % </td>
                         <td class="all_time_pts"> 0 </td>
                         <td class="playoffs"> 2</td>
                         <td class="finals"> 2 </td>
@@ -899,6 +926,7 @@
                         <td class="season_9" align="center"> - </td>
                         <td class="win_total"> 3 </td>
                         <td class="loss_total"> 14 </td>
+                                <td class="percentage_won">    % </td>
                         <td class="all_time_pts"> 0 </td>
                         <td class="playoffs"> 0</td>
                         <td class="finals"> 0 </td>
@@ -931,6 +959,7 @@
                         <td class="season_9" align="center"> - </td>
                         <td class="win_total"> 9 </td>
                         <td class="loss_total"> 6 </td>
+                                <td class="percentage_won">    % </td>
                         <td class="all_time_pts"> 0 </td>
                         <td class="playoffs"> 1 </td>
                         <td class="finals"> 0 </td>
@@ -963,6 +992,7 @@
                         <td class="season_9" align="center"> - </td>
                         <td class="win_total"> 12 </td>
                         <td class="loss_total"> 20 </td>
+                                <td class="percentage_won">    % </td>
                         <td class="all_time_pts"> 0 </td>
                         <td class="playoffs"> 0 </td>
                         <td class="finals"> 0 </td>
@@ -995,6 +1025,7 @@
                         <td class="season_9" align="center"> - </td>
                         <td class="win_total"> 18 </td>
                         <td class="loss_total"> 13 </td>
+                                <td class="percentage_won">    % </td>
                         <td class="all_time_pts"> 0 </td>
                         <td class="playoffs"> 2 </td>
                         <td class="finals"> 0 </td>
@@ -1027,6 +1058,7 @@
                         <td class="season_9" align="center"> - </td>
                         <td class="win_total"> 4 </td>
                         <td class="loss_total"> 10 </td>
+                                <td class="percentage_won">    % </td>
                         <td class="all_time_pts"> 0 </td>
                         <td class="playoffs"> 0 </td>
                         <td class="finals"> 0 </td>
@@ -1059,6 +1091,7 @@
                         <td class="season_9" align="center"> - </td>
                         <td class="win_total"> 7 </td>
                         <td class="loss_total"> 8 </td>
+                                <td class="percentage_won">    % </td>
                         <td class="all_time_pts"> 0 </td>
                         <td class="playoffs"> 0 </td>
                         <td class="finals"> 0 </td>
@@ -1091,6 +1124,7 @@
                         <td class="season_9" align="center"> - </td>
                         <td class="win_total"> 9 </td>
                         <td class="loss_total"> 6 </td>
+                                <td class="percentage_won">    % </td>
                         <td class="all_time_pts"> 0 </td>
                         <td class="playoffs"> 1 </td>
                         <td class="finals"> 0 </td>
@@ -1123,6 +1157,7 @@
                         <td class="season_9" align="center"> - </td>
                         <td class="win_total"> 8 </td>
                         <td class="loss_total"> 7 </td>
+                                <td class="percentage_won">    % </td>
                         <td class="all_time_pts"> 0 </td>
                         <td class="playoffs"> 1 </td>
                         <td class="finals"> 0 </td>
@@ -1155,6 +1190,7 @@
                         <td class="season_9" align="center"> - </td>
                         <td class="win_total"> 1 </td>
                         <td class="loss_total"> 13 </td>
+                                <td class="percentage_won">    % </td>
                         <td class="all_time_pts"> 0 </td>
                         <td class="playoffs">  0 </td>
                         <td class="finals"> 0 </td>
@@ -1187,6 +1223,7 @@
                         <td class="season_9" align="center"> - </td>
                         <td class="win_total"> 7 </td>
                         <td class="loss_total"> 9  </td>
+                                <td class="percentage_won">    % </td>
                         <td class="all_time_pts"> 0 </td>
                         <td class="playoffs">  0 </td>
                         <td class="finals"> 0 </td>
@@ -1219,6 +1256,7 @@
                         <td class="season_9" align="center"> - </td>
                         <td class="win_total"> 3 </td>
                         <td class="loss_total"> 13 </td>
+                                <td class="percentage_won">    % </td>
                         <td class="all_time_pts"> 0 </td>
                         <td class="playoffs">  0 </td>
                         <td class="finals"> 0 </td>
@@ -1251,6 +1289,7 @@
                         <td class="season_9" align="center"> - </td>
                         <td class="win_total"> 4 </td>
                         <td class="loss_total"> 12 </td>
+                                <td class="percentage_won">    % </td>
                         <td class="all_time_pts"> 0 </td>
                         <td class="playoffs"> 0  </td>
                         <td class="finals"> 0 </td>
@@ -1283,6 +1322,7 @@
                         <td class="season_9" align="center"> - </td>
                         <td class="win_total"> 7 </td>
                         <td class="loss_total"> 9 </td>
+                                <td class="percentage_won">    % </td>
                         <td class="all_time_pts"> 0 </td>
                         <td class="playoffs">  1 </td>
                         <td class="finals"> 0 </td>
@@ -1315,6 +1355,7 @@
                         <td class="season_9" align="center"> - </td>
                         <td class="win_total"> 13 </td>
                         <td class="loss_total"> 3 </td>
+                                <td class="percentage_won">    % </td>
                         <td class="all_time_pts"> 0 </td>
                         <td class="playoffs">  1 </td>
                         <td class="finals"> 0 </td>
@@ -1347,6 +1388,7 @@
                         <td class="season_9" align="center"> - </td>
                         <td class="win_total">1 </td>
                         <td class="loss_total">13 </td>
+                                <td class="percentage_won">    % </td>
                         <td class="all_time_pts">0 </td>
                         <td class="playoffs">0 </td>
                         <td class="finals">0 </td>
@@ -1379,6 +1421,7 @@
                         <td class="season_9" align="center"> - </td>
                         <td class="win_total"> 5 </td>
                         <td class="loss_total"> 13 </td>
+                                <td class="percentage_won">    % </td>
                         <td class="all_time_pts">0 </td>
                         <td class="playoffs">0 </td>
                         <td class="finals">0 </td>
@@ -1411,6 +1454,7 @@
                         <td class="season_9" align="center"> - </td>
                         <td class="win_total"> 4 </td>
                         <td class="loss_total"> 12  </td>
+                                <td class="percentage_won">    % </td>
                         <td class="all_time_pts"> 0 </td>
                         <td class="playoffs"> 0 </td>
                         <td class="finals"> 0 </td>
@@ -1443,6 +1487,7 @@
                         <td class="season_9" align="center"> - </td>
                         <td class="win_total"> 10  </td>
                         <td class="loss_total"> 24 </td>
+                                <td class="percentage_won">    % </td>
                         <td class="all_time_pts">0 </td>
                         <td class="playoffs">0 </td>
                         <td class="finals">0 </td>
@@ -1475,6 +1520,7 @@
                         <td class="season_9" align="center"> - </td>
                         <td class="win_total">19 </td>
                         <td class="loss_total">15 </td>
+                                <td class="percentage_won">    % </td>
                         <td class="all_time_pts">0 </td>
                         <td class="playoffs">2 </td>
                         <td class="finals">0 </td>

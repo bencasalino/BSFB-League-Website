@@ -221,7 +221,7 @@
                             <td class="team_name"> Windy City Champs</td>
                             <td class="joined"> 2008 </td>
                             <td class="join_history"> 003 </td>
-                            <td class="full_seasons" align="center"> 7 </td>
+                            <td class="full_seasons" align="center"> 8 </td>
                             <td class="season_1 first_place" align="center"> 13 </td>
                             <td class="season_1 first_place" align="center"> 3 </td>
                             <td class="season_2 first_place" align="center"> 14 </td>
@@ -1819,14 +1819,64 @@
                 <br>
                 <span class="glyphicon glyphicon-user commmish" aria-hidden="true"></span> = Commissioner
                 <br>
-                <div>
-                    <div class="first_box" align="center"> </div> = 1st Place
-                </div>
-            </section>
+</section>
+
+
+
+
+
+
+<!--  /////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
+
+
+
+
+
+<section>
+    <div class="continer-fluid">
+        <div class="table-responsive">
+            <br>
+            <h4 align="center">Trophy Case</h4>
+            <br>
+            1st place = <span>test</span>
+            <br>
+            2nd place = <span>test</span>
+            <br>
+            3rd place = <span>test</span>
+            <br>
+            4th place = <span>test</span>
+            <section>
+                <table id="myTable_2" class="tablesorter table table-striped table-condensed" align="center">
+                    <thead>
+                        <tr>
+                            <th> Owner </th>
+                            <th> Awards </th>
+                        </tr>
+                        <tbody>
+                            <tr>
+                            <td>
+                                123
+                            </td>
+                            <td>
+                                abc
+                            </td>
+                                </tr>
+                                <tr>
+
+
+                            <td>
+                                321
+                            </td>
+                            <td>
+                                cba
+                            </td>
+                                </tr>
+                        </tbody>
 
 
         </div>
     </div>
+</section>
 
 
 
@@ -1835,6 +1885,17 @@
         // add more comments on what this is actually doin, maybe diff format for date?
         $(document).ready(function() {
             $("#myTable").tablesorter({
+                sortList: [
+                    [0, 0],
+                    [1, 0]
+                ]
+            });
+        });
+    </script>
+    <script>
+        // add more comments on what this is actually doin, maybe diff format for date?
+        $(document).ready(function() {
+            $("#myTable_2").tablesorter({
                 sortList: [
                     [0, 0],
                     [1, 0]

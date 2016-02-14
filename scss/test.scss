@@ -3,7 +3,9 @@
 // 	color:red;
 // 	background-color: grey;
 // }
-
+.win_total {
+	color:black;
+}
 
 .full_seasons {
 align-self: center;
@@ -82,6 +84,8 @@ th {
 
 // somthing to denot if team made playoffs glyphicon super small px size
 //something to denote lockout season *
+// denote in legend that wins does NTOT include playoff wins
+// add a playoffs win column
 // 2 team colors tab
 
 // hometown tab?
@@ -133,8 +137,83 @@ opacity: 90%;
 }
 
 
+
+
+
+
+// gradient from highest to lowest
+
+.total_wins_10 {
+background-color:orange;
+color:black;
+opacity: .1;
+}
+.total_wins_20 {
+	background-color:orange;
+	color:black;
+	opacity: .2;
+}
+.total_wins_30 {
+	background-color:orange;
+	color:black;
+	opacity: .3;
+}
+.total_wins_40 {
+	background-color:orange;
+	color:black;
+	opacity: .4;
+}
+.total_wins_50 {
+	background-color:orange;
+	color:black;
+	opacity: .5;
+}
+.total_wins_60 {
+	background-color:orange;
+	color:black;
+	opacity: .6;
+}
+.total_wins_70 {
+	background-color:orange;
+	color:black;
+	opacity: .7;
+}
+.total_wins_80 {
+	background-color:orange;
+	color:black;
+	opacity: .8;
+}
+.total_wins_90 {
+	background-color:orange;
+	color:black;
+	opacity: .9;
+}
+
+.total_wins_100 {
+	background-color:orange;
+	color:black;
+	opacity: 1.0;
+}
+
+
+
+
 .first_box {
 	width:20px;
 	height: 20px;
 	background-color: red;
+}
+
+
+
+
+.glyphicon-star {
+	color: black;
+	font-size: .8em;
+}
+
+
+.jersey {
+	height:1.5em;
+	width:1.5em;
 }

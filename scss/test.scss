@@ -19,7 +19,9 @@ align-self: center;
 	color:black;
 	font-size: 10px;
 }
-
+.sortable {
+	font-size: 5px;
+}
 
 td {
 	color:black;
@@ -29,6 +31,7 @@ td {
 
 th {
 	font-size: 11px;
+	background-color: #F0F0F0 	;
 	// padding: 1px;
 }
 

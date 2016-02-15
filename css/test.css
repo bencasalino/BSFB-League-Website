@@ -10,12 +10,16 @@
   color: black;
   font-size: 10px; }
 
+.sortable {
+  font-size: 5px; }
+
 td {
   color: black;
   font-size: 11px; }
 
 th {
-  font-size: 11px; }
+  font-size: 11px;
+  background-color: #F0F0F0; }
 
 .inactive {
   font-style: italic;

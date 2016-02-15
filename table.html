@@ -34,7 +34,7 @@
             <br>
             <h4 align="center">Leauge History Table</h4>
             <section>
-                <table id="myTable" class="tablesorter table table-striped table-condensed" align="center">
+                <table id="myTable" class="tablesorter table table-striped table-condensed table-bordered" align="center">
                     <thead>
                         <tr>
 
@@ -119,9 +119,9 @@
                             <th> L's </th>
                             <th> Win % </th>
                             <th> FPts </th>
-                            <th> Playoffs </th>
-                            <th> Finals </th>
-                            <th> Titles </th>
+                            <th class="shorten"> Playoffs </th>
+                            <th class="shorten"> Finals </th>
+                            <th class="shorten"> Titles </th>
                             <!-- <th> Seasons Completed? </th> -->
                             <!-- WIN total %  -->
                             <!-- Loss % -->
@@ -1822,31 +1822,48 @@
             <div class="container-fluid">
                 <div class="table-responsive">
                     <section align="center">
-                        <table class="table no_border">
+                        <table class="table no_border" align="center">
                             <tbody>
+                                <thead>
+                                    <tr>
+                                        <th>
+                                            Owner Type
+                                        </th>
+                                        <th>
+                                            Top 4 Standings
+                                        </th>
+                                        <th>
+                                            HOF Eligibility
+                                        </th>
+                                        <th>
+                                            Season Awards
+                                        </th>
+                                    </tr>
+                                </thead>
                                 <tr>
-                                    <td>1</td>
-                                    <td>2</td>
-                                    <td>3</td>
-                                    <td>4</td>
+                                    <td align="left">    <span class="glyphicon glyphicon-user" aria-hidden="true" align="left"></span>            = Inactive Manager</td>
+                                    <td align="left">     <img class="medal_gold_column" src="gold.svg"> = 1<sup>st</sup> Place </td>
+                                    <td align="left">           <img class="medal_bronze_column" src="belt.svg">     = 1+ Championship </td>
+                                    <td align="left">        <img class="medal_bronze_column" src="basketball.svg">             = Reg Season Best Record</td>
                                 </tr>
                                 <tr>
-                                    <td>1</td>
-                                    <td>2</td>
-                                    <td>3</td>
-                                    <td>4</td>
+                                    <td align="left">   <img class="jersey" src="test.svg" align="left">
+                                                     = Active Manager </td>
+                                    <td align="left">     <img class="medal_silver_column" src="silver.svg"> = 2<sup>nd</sup> Place </td></td>
+                                    <td align="left">     <img class="medal_bronze_column" src="hourglass.svg">           = 5+ years </td>
+                                    <td align="left">              <img class="medal_bronze_column" src="basketball.svg">       = Best Draft Pick</td>
                                 </tr>
                                 <tr>
-                                    <td>1</td>
-                                    <td>2</td>
-                                    <td>3</td>
-                                    <td>4</td>
+                                    <td align="left">   <img class="commish_icon_legend" src="cicle.svg" align="left" height="10px" width="10px">             = Commish</td>
+                                    <td align="left">   <img class="medal_bronze_column" src="bronze.svg"> = 3<sup>rd</sup> Place </td></td>
+                                    <td align="left">          <img class="medal_bronze_column" src="win.svg">      = 50+ Wins </td>
+                                    <td align="left">            <img class="medal_bronze_column" src="basketball.svg">         = Best Waiver Aquisition</td>
                                 </tr>
                                 <tr>
-                                    <td>1</td>
-                                    <td>2</td>
-                                    <td>3</td>
-                                    <td>4</td>
+                                    <td align="left">                </td>
+                                    <td align="left">            test    = 4th Place</td>
+                                    <td align="left">    <img class="medal_bronze_column" src="chart.svg">            = 100k Total Pts</td>
+                                    <td align="left">    <img class="medal_bronze_column" src="basketball.svg">            = Rookie of the Year</td>
                                 </tr>
                             </tbody>
                         </table>

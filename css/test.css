@@ -225,6 +225,9 @@ th {
   height: 1em;
   width: 1em; }
 
+.shorten {
+  font-size: 08px; }
+
 .legend_column {
   margin: 15px; }
 

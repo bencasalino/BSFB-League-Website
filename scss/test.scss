@@ -26,7 +26,7 @@ align-self: center;
 td {
 	color:black;
 	font-size: 11px;
-	// padding: 1px;
+	// : 2px;
 }
 
 th {
@@ -38,6 +38,23 @@ th {
 
 
 
+
+
+ .header_stripe {
+	 background-color: #cccccc;
+	 color: black;
+ }
+
+.header_current {
+	background-color: #a6a6a6;
+	color:white;
+
+}
+
+.header_inactive {
+	background-color: #404040;
+	color: white;
+}
 .inactive {
 	font-style: italic;
 	color:grey;
@@ -65,8 +82,8 @@ th {
 
 //add star glyphicon to titles column
 .first_place {
-	background-color: gold;
-	font-weight: bold;
+	background-color: #ffff80;
+
 }
 .second_place{
 	background-color: silver;
@@ -258,7 +275,7 @@ color:black;
 .first_box {
 	width:20px;
 	height: 20px;
-	background-color: red;
+
 }
 
 
@@ -280,11 +297,47 @@ color:black;
 	height:1.4em;
 	width:1.4em;
 }
+.commish_icon_legend {
+	height:1.2em;
+	width:1.2em;
+}
 
-//team color format
-// .home_{
-// 	background-color:# ;
-// }
-// .away_{
-// 	background-color:# ;
-// }
+
+
+.medal_gold {
+	height:1.2em;
+	width:1.2em;
+}
+.medal_silver {
+	height:1.2em;
+	width:1.2em;
+}
+.medal_bronze {
+	height:1.2em;
+	width:1.2em;
+}
+
+.medal_gold_column {
+	height:1em;
+	width:1em;
+}
+.medal_silver_column {
+	height:1em;
+	width:1em;
+}
+.medal_bronze_column {
+	height:1em;
+	width:1em;
+}
+
+
+
+.legend_column {
+	margin:15px;
+
+}
+
+.no_border {
+	   border-top: none !important;
+
+}

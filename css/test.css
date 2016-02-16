@@ -48,16 +48,13 @@ th {
   color: grey; }
 
 .first_place {
-  background-color: #ffff80; }
+  background-color: #E0BA22; }
 
 .second_place {
-  background-color: silver; }
+  background-color: #AAAAAA; }
 
 .third_place {
-  background-color: #DEA36C; }
-
-.forth_place {
-  background-color: #E1E1E1; }
+  background-color: #99773D; }
 
 .alltime_10k {
   color: lightblue;

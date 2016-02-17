@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1 user-scalable=no">
+    <!-- Fav icon -->
+    <link rel="shortcut icon" href="bsfb.ico">
+    <!-- title -->
+    <title> BSFB 2016</title>
+    <!-- Normalize CSS -->
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <!-- Bootstrap CSS -->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <!-- Animate CSS Link  -->
+    <link rel="stylesheet" type="text/css" href="css/animate.css">
+    <!-- External CSS -->
+    <link rel="stylesheet" type="text/css" href="css/line.css">
+    <!-- table -->
+    <!-- <script type="text/javascript" src="tablesorter-master/jquery-latest.js"></script>
+    <script type="text/javascript" src="tablesorter-master/jquery.tablesorter.js"></script> -->
+    <script type="text/javascript" src="chart.js/Chart.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/1.0.2/Chart.min.js"></script> -->
+    <!-- <script type="text/javascript" src="test.js"></script> -->
+</head>
+   <body>
+     <canvas id="canvas" width="700px" height="600px"></canvas>
+
+<div class="container-fluid">
+    <h5 align="left"> <strong> Legend </strong></h5>
+    <p class="owner_ben"> Ben </p>
+    <p class="owner_rafa"> Rafa</p>
+    <p class="owner_jon"> Jon</p>
+    <p class="owner_adam"> Adam </p>
+    <p class="owner_chris"> Chris</p>
+    <p class="owner_lamar"> Lamar</p>
+    <p class="owner_carlo"> Carlo </p>
+    <p class="owner_tanner"> Tanner</p>
+    <p class="owner_craig"> Craig</p>
+    <p class="owner_burges"> Burges</p>
+    <p class="owner_mateo"> Mateo</p>
+    <p class="owner_james"> James</p>
+</div>
+
+
+
+
+
+
+
+
+
+
+     <script>
+
+     var ctx = document.getElementById('canvas').getContext('2d');
+
+     var lineData = {
+         labels: ["Week 1", "Week 2", "Week 3", "Week 4", "Week 5", "Week 6", "Week 7", "Week 8",
+          "Week 9", "Week 10", "Week 11", "Week 12", "Week 13", "Week 14", "Week 15","Week 16"],
+         datasets: [
+             {
+                 label: "Ben",
+                 fillColor: "rgba(255, 128, 0,0.2)",
+                 strokeColor: "rgba(255, 128, 0,1)",
+                 pointColor: "rgba(255, 128, 0,1)",
+                 pointStrokeColor: "#fff",
+                 pointHighlightFill: "#fff",
+                 pointHighlightStroke: "rgba(255, 128, 0,0.2)",
+                 data: [1,2,3,4,
+                        5,5,6,7,
+                        8,8,8,9,
+                        9,9,10,11]
+             },
+             {
+                 label: "Rafa",
+                 fillColor: "rgba(255, 0, 0,0.2)",
+                 strokeColor: "rgba(255, 0, 0,1)",
+                 pointColor: "rgba(255, 0, 0,1)",
+                 pointStrokeColor: "#fff",
+                 pointHighlightFill: "#fff",
+                 pointHighlightStroke: "rgba(255, 0, 0,0.2)",
+                 data: [1,2,3,4,
+                        5,6,7,8,9,
+                        10,11,12,
+                        12,13,14,14]
+             },
+             {
+                 label: "Jon",
+                 fillColor: "rgba(255, 255, 0,0.2)",
+                 strokeColor: "rgba(255, 255, 0,1)",
+                 pointColor: "rgba(255, 255, 0,1)",
+                 pointStrokeColor: "#fff",
+                 pointHighlightFill: "#fff",
+                 pointHighlightStroke: "rgba(255, 255, 0,0.2)",
+                 data: [1,1,1,2,
+                        3,4,4,5,
+                        6,7,7,8,
+                        9,10,10,11]
+             },
+             {
+                 label: "Craig",
+                 fillColor: "rgba(128, 255, 0,0.2)",
+                 strokeColor: "rgba(128, 255, 0,1)",
+                 pointColor: "rgba(128, 255, 0,1)",
+                 pointStrokeColor: "#fff",
+                 pointHighlightFill: "#fff",
+                 pointHighlightStroke: "rgba(128, 255, 0,0.2)",
+                 data: [1,2,3,4,
+                        5,6,7,8,
+                        9,10,11,11,
+                        12,12,12,13]
+             },
+             {
+                 label: "Lamar",
+                 fillColor: "rgba(0, 255, 255,0.2)",
+                 strokeColor: "rgba(0, 255, 255,1)",
+                 pointColor: "rgba(0, 255, 255,1)",
+                 pointStrokeColor: "#fff",
+                 pointHighlightFill: "#fff",
+                 pointHighlightStroke: "rgba(0, 255, 255,0.2)",
+                 data: [0,0,0,1,
+                        1,1,1,2,
+                        2,2,2,2,
+                        3,3,3,3]
+             },
+             {
+                 label: "James",
+                 fillColor: "rgba(0, 191, 255,0.2)",
+                 strokeColor: "rgba(0, 191, 255,1)",
+                 pointColor: "rgba(0, 191, 255,1)",
+                 pointStrokeColor: "#fff",
+                 pointHighlightFill: "#fff",
+                 pointHighlightStroke: "rgba(0, 191, 255,0.2)",
+                 data: [0,0,0,0,
+                        0,0,0,0,
+                        0,0,1,2,
+                        3,4,4,4]
+             },
+
+             {
+                 label: "Mateo",
+                 fillColor: "rgba(0, 64, 255,0.2)",
+                 strokeColor: "rgba(0, 64, 255,1)",
+                 pointColor: "rgba(0, 64, 255,1)",
+                 pointStrokeColor: "#fff",
+                 pointHighlightFill: "#fff",
+                 pointHighlightStroke: "rgba(0, 64, 255,0.2)",
+                 data: [0,1,2,2,
+                        2,2,2,2,
+                        3,3,3,3,
+                        3,3,3,3]
+             },
+             {
+                 label: "Carlo",
+                 fillColor: "rgba(128, 64, 255,0.2)",
+                 strokeColor: "rgba(128, 64, 255,1)",
+                 pointColor: "rgba(128, 64, 255,1)",
+                 pointStrokeColor: "#fff",
+                 pointHighlightFill: "#fff",
+                 pointHighlightStroke: "rgba(128, 64, 255,0.2)",
+                 data: [1,2,2,2,
+                        2,3,3,3,
+                        4,4,4,4,
+                        4,4,4,4]
+             },
+             {
+                 label: "Burges",
+                 fillColor: "rgba(255, 0, 255,0.2)",
+                 strokeColor: "rgba(255, 0, 255,1)",
+                 pointColor: "rgba(255, 0, 255,1)",
+                 pointStrokeColor: "#fff",
+                 pointHighlightFill: "#fff",
+                 pointHighlightStroke: "rgba(255, 0, 255,0.2)",
+                 data: [0,0,0,1,
+                        1,1,1,1,
+                        2,2,3,4,
+                        4,5,6,7]
+             },
+             {
+                 label: "Tanner",
+                 fillColor: "rgba(255, 0, 128,0.2)",
+                 strokeColor: "rgba(255, 0, 128,1)",
+                 pointColor: "rgba(255, 0, 128,1)",
+                 pointStrokeColor: "#fff",
+                 pointHighlightFill: "#fff",
+                 pointHighlightStroke: "rgba(255, 0, 128,0.2)",
+                 data: [0,0,0,0,
+                        0,0,0,0,
+                        1,2,3,4,
+                        4,4,5,6]
+             },
+             {
+                 label: "Chris",
+                 fillColor: "rgba(0, 255, 191,0.2)",
+                 strokeColor: "rgba(0, 255, 191,1)",
+                 pointColor: "rgba(0, 255, 191,1)",
+                 pointStrokeColor: "#fff",
+                 pointHighlightFill: "#fff",
+                 pointHighlightStroke: "rgba(0, 255, 191,0.2)",
+                 data: [0,1,1,2,
+                        3,4,5,6,
+                        6,6,6,7,
+                        7,8,9,10]
+             },
+             {
+                 label: "Adam",
+                 fillColor: "rgba(255, 191, 0,0.2)",
+                 strokeColor: "rgba(255, 191, 0,1)",
+                 pointColor: "rgba(255, 191, 0,1)",
+                 pointStrokeColor: "#fff",
+                 pointHighlightFill: "#fff",
+                 pointHighlightStroke: "rgba(255, 191, 0,0.2)",
+                 data: [1,1,1,1,
+                        1,2,3,4,
+                        4,5,6,7,
+                        7,8,9,9]
+             }
+         ]
+     };
+
+     var ctx = document.getElementById('canvas').getContext('2d');
+     var lineDemo = new Chart(ctx).Line(lineData, {
+        //  responsive: true,
+        //  pointDotRadius: 10,
+         bezierCurve: false,
+         scaleShowVerticalLines: false,
+         scaleGridLineColor: 'black',
+           scaleShowVerticalLines: true,
+                scaleShowHorizontalLines: true,
+
+
+     });
+
+     </script>
+   </body>
+
+
+</html>

@@ -26,15 +26,41 @@
     <!-- table -->
     <!-- <script type="text/javascript" src="tablesorter-master/jquery-latest.js"></script>
     <script type="text/javascript" src="tablesorter-master/jquery.tablesorter.js"></script> -->
-    <script type="text/javascript" src="shart.js"></script>    
     <script type="text/javascript" src="chart.js/Chart.js"></script>
+    <script type="text/javascript" src="test.js"></script>
 </head>
+   <body>
+     <canvas id="skills" width="300" height="300"></canvas>
+     <script>
 
-<body>
+     var context = document.getElementById('skills').getContext('2d');
+     var pieData = [
+        {
+           value: 25,
+           label: 'Java',
+           color: '#811BD6'
+        },
+        {
+           value: 10,
+           label: 'Scala',
+           color: '#9CBABA'
+        },
+        {
+           value: 30,
+           label: 'PHP',
+           color: '#D18177'
+        },
+        {
+           value : 35,
+           label: 'HTML',
+           color: '#6AE128'
+        }
+     ];
+      var skillsChart = new Chart(context).Pie(pieData);
 
+    //  var skillsChart = new Chart(context).Pie(pieData);
+     </script>
+   </body>
 
-<canvas id="skills" width="300" height="300"></canvas>
-
-</body>
 
 </html>

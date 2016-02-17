@@ -1,6 +1,5 @@
 <script>
 var context = document.getElementById('skills').getContext('2d');
-var skillsChart = new Chart(context).Pie(data);
 
 var pieData = [
    {
@@ -25,4 +24,5 @@ var pieData = [
    }
 ];
 
+var skillsChart = new Chart(context).Pie(pieData);
 </script>

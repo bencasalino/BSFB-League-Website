@@ -36,10 +36,6 @@ th {
 }
 
 
-
-
-
-
  .header_stripe {
 	 background-color: #cccccc;
 	 color: black;
@@ -317,17 +313,23 @@ color:black;
 	width:1.2em;
 }
 
-.medal_gold_column {
-	height:1em;
-	width:1em;
-}
-.medal_silver_column {
-	height:1em;
-	width:1em;
-}
-.medal_bronze_column {
-	height:1em;
-	width:1em;
+// .medal_gold_column {
+// 	height:1em;
+// 	width:1em;
+// }
+// .medal_silver_column {
+// 	height:1em;
+// 	width:1em;
+// }
+// .medal_bronze_column {
+// 	height:1em;
+// 	width:1em;
+// }
+
+
+.icon_column_test {
+	height:.5em;
+	width:.5em;
 }
 
 
@@ -345,3 +347,7 @@ color:black;
 	   border-top: none !important;
 
 }
+
+
+.inactive_grey {
+	color:grey;}

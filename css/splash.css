@@ -1,3 +1,20 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:700);
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+body {
+  background-color: #2b90d9;
+  font-size: 18px; }
+
+h3 {
+  font-family: 'Roboto';
+  font-weight: bold;
+  color: white; }
+
+h5 {
+  font-family: 'Roboto';
+  font-weight: normal;
+  letter-spacing: 2px;
+  color: white; }
+
 .full_seasons {
   align-self: center; }
 
@@ -210,17 +227,9 @@ th {
   height: 1.2em;
   width: 1.2em; }
 
-.medal_gold_column {
-  height: 1em;
-  width: 1em; }
-
-.medal_silver_column {
-  height: 1em;
-  width: 1em; }
-
-.medal_bronze_column {
-  height: 1em;
-  width: 1em; }
+.icon_column_test {
+  height: .5em;
+  width: .5em; }
 
 .shorten {
   font-size: 08px; }
@@ -231,4 +240,7 @@ th {
 .no_border {
   border-top: none !important; }
 
-/*# sourceMappingURL=test.css.map */
+.inactive_grey {
+  color: grey; }
+
+/*# sourceMappingURL=splash.css.map */

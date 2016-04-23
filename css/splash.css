@@ -210,9 +210,17 @@ th {
   height: 1.2em;
   width: 1.2em; }
 
-.icon_column_test {
-  height: .5em;
-  width: .5em; }
+.medal_gold_column {
+  height: 1em;
+  width: 1em; }
+
+.medal_silver_column {
+  height: 1em;
+  width: 1em; }
+
+.medal_bronze_column {
+  height: 1em;
+  width: 1em; }
 
 .shorten {
   font-size: 08px; }
@@ -223,7 +231,4 @@ th {
 .no_border {
   border-top: none !important; }
 
-.inactive_grey {
-  color: grey; }
-
-/*# sourceMappingURL=table.css.map */
+/*# sourceMappingURL=test.css.map */

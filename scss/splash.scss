@@ -3,22 +3,31 @@
 body {
     background-color: #2b90d9;
     // font-family: 'Passion One';
-    font-size: 18px;
+    // font-size: 18px;
 }
-h3 {
+h1, h3 {
     font-family: 'Roboto';
     font-weight: bold;
     color: white;
 }
-h5 {
+
+h2, h4, h5 {
     font-family: 'Roboto';
     font-weight: normal;
     letter-spacing: 2px;
     color: white;
 }
-h4 {
-    font-family: 'Roboto';
-    font-weight: normal;
-    letter-spacing: 2px;
-    color: white;
+
+.hof_header {
+	    color: #282c37;
+}
+
+.hof_data {
+    color: #d9e1e8;
+}
+
+
+.inactive {
+    color:#9baec8;
+font-style: italic;
 }

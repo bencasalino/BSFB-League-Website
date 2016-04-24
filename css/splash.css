@@ -1,24 +1,27 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:700);
 @import url(https://fonts.googleapis.com/css?family=Roboto);
 body {
-  background-color: #2b90d9;
-  font-size: 18px; }
+  background-color: #2b90d9; }
 
-h3 {
+h1, h3 {
   font-family: 'Roboto';
   font-weight: bold;
   color: white; }
 
-h5 {
+h2, h4, h5 {
   font-family: 'Roboto';
   font-weight: normal;
   letter-spacing: 2px;
   color: white; }
 
-h4 {
-  font-family: 'Roboto';
-  font-weight: normal;
-  letter-spacing: 2px;
-  color: white; }
+.hof_header {
+  color: #282c37; }
+
+.hof_data {
+  color: #d9e1e8; }
+
+.inactive {
+  color: #9baec8;
+  font-style: italic; }
 
 /*# sourceMappingURL=splash.css.map */

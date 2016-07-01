@@ -1,7 +1,9 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:700);
 @import url(https://fonts.googleapis.com/css?family=Roboto);
 body {
-  background-color: #d9e1e8; }
+  background-color: #d9e1e8;
+  padding-left: 9%;
+  padding-right: 9%; }
 
 h1, h3 hr {
   font-family: 'Roboto';

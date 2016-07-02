@@ -2,7 +2,7 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto);
 body {
   background-color: #d9e1e8;
-  margin-left: 9%;
+  margin-left:  9%;
   margin-right: 9%; }
 
 h1, h3 hr {
@@ -31,6 +31,9 @@ strong {
 .will {
   color: #c72e45; }
 
+.year_red {
+    color: #c72e45; }
+
 .test {
   color: #2b90d9; }
 
@@ -39,5 +42,15 @@ td, th {
 
 .mana_names {
   font-weight: bold; }
+
+
+  .ring {
+    background-color: #d9e1e8;
+    margin-left:  -4%;
+    margin-right: -4%; }
+
+
+
+
 
 /*# sourceMappingURL=halloffame.css.map */

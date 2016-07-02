@@ -67,6 +67,9 @@ td, th {
 .paid_yes {
   color: green; }
 
+  .paid_credit {
+    color: #cc9900; }
+
 .mana_names {
   font-weight: bold; }
 

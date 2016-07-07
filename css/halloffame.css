@@ -10,10 +10,10 @@ h1, h3 hr {
   font-weight: bold;
   color: #414042; }
 
-h2, h4, h5 {
+h2, h4 {
   font-family: 'Roboto';
   font-weight: normal;
-  letter-spacing: 2px;
+  /*letter-spacing: 2px;*/
   color: #414042; }
 
 .hof_header {

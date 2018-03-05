@@ -17,7 +17,8 @@ In a web browser navigate to _https://www.bsfbbasketball.com/_ to view
 * _ESPN League Home_
 * _http://games.espn.go.com/fba/leagueoffice?leagueId=57357_
 
-## App Layout [Layout of the Website] (Layout.png)
+## App Layout
+![Layout of the Website](Layout.png)
 - Link to: [Deployed front-end URL](www.bsfbbasketball.com/)
 - Link to: [Code Frontend Repo](https://github.com/bencasalino/BSFB-League-Website/)
 

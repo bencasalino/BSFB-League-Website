@@ -1,6 +1,6 @@
 # BSFB Fantasy Basketball League Website
 
-### Author **Ben Csasalino**
+### Author **Ben Casalino**
 ### Contact **BenCasalino@gmail.com**
 
 ## Description

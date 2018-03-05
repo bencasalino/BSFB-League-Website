@@ -1,7 +1,15 @@
-###### BSFB SEASON VIII (transition to SEASON IX/summer and offseason updates)
+# BSFB Fantasy Basketball League Website
 
+### Author **Ben Csasalino**
+### Contact **BenCasalino@gmail.com**
 
-###### Links
+## Description
+This is website is not affiliated with the NBA in anyway, merely a place to keep track of stats from our league.
+
+## Setup
+In a web browser navigate to _https://www.bsfbbasketball.com/_ to view
+
+## Associated Links
 * _Leauge Home_
 * _https://www.bsfbbasketball.com/_
 * _Facebook Group Page_
@@ -9,34 +17,12 @@
 * _ESPN League Home_
 * _http://games.espn.go.com/fba/leagueoffice?leagueId=57357_
 
-##### _BSFB Fantasy Basketball Season VIII, Version 5, 02/01/16_
+## App Layout [Layout of the Website](Layout.png)
+- Link to: [Deployed front-end URL](www.bsfbbasketball.com/)
+- Link to: [Code Frontend Repo](https://github.com/bencasalino/BSFB-League-Website/)
 
-#### By _**Benjamin M. Casalino**_
-
-## Description
-
-This is website is not affiliated with the NBA in anyway,
-merely a place to keep track of stats from our league.
-
-## Setup
-In a web browser navigate to _https://www.bsfbbasketball.com/_ to view.
-
-
-
-## Technologies Used
-* HTML5
-* CSS3
-* SASS
-* BOOTSTRAP 3
-* JAVASCRIPT
-* WOW JS
-* ANIMATE JS
-* JQUERY
-
-
-### Legal
-
-Copyright (c) 2016 **_Benjamin M. Casalino_**
+# Legal
+Copyright (c) 2018 **_Benjamin M. Casalino_**
 
 This software is licensed under the MIT license.
 
